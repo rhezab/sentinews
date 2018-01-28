@@ -7,7 +7,8 @@ import re
 from nltk.corpus import stopwords
 import pandas as pd
 
-api = NewsApiClient(api_key='e4d6830ad0ac44f79645297b4af19f9f')
+# newsapi_key = 
+api = NewsApiClient(api_key=newsapi_key)
 
 def get_articles(query, 
                  sources='bloomberg,cnbc,the-economist,the-wall-street-journal,financial-times',
