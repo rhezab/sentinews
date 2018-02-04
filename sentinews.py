@@ -74,4 +74,8 @@ def avg_sentiment(q, type='full',
     print(avg)
     return avg, df
 
+if __name__=="__main__":
+    x = avg_sentiment("Amazon")
+    print("Table of results: ", x[1])
+    print("Average sentiment score: ", x[0])
 
